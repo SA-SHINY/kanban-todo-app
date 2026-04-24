@@ -9,11 +9,11 @@ import {
   verticalListSortingStrategy,
 } from '@dnd-kit/sortable';
 import { useTasks } from './contexts/TaskContext';
-import TaskCard from './components/TaskCard';
-import EditTaskForm from './components/EditTaskForm';
-import TaskModal from './components/TaskModal';
-import TaskForm from './components/TaskForm';
-import Column from './components/Column';
+import TaskCard from './Components/TaskCard';
+import EditTaskForm from './Components/EditTaskForm';
+import TaskModal from './Components/TaskModal';
+import TaskForm from './Components/TaskForm';
+import Column from './Components/Column';
 
 function App() {
   const {

@@ -1,0 +1,38 @@
+.priority-select option:hover {
+  transition: all 0.2s ease;
+}
+
+.priority-select option[value="low"]:hover {
+  background-color: #dcfce7 !important;
+  color: #166534 !important;
+}
+
+.priority-select option[value="medium"]:hover {
+  background-color: #fef9c3 !important;
+  color: #854d0e !important;
+}
+
+.priority-select option[value="high"]:hover {
+  background-color: #fee2e2 !important;
+  color: #991b1b !important;
+}
+
+@-moz-document url-prefix() {
+  .priority-select option:hover {
+    background-color: #3b82f6 !important;
+    color: white !important;
+  }
+  
+  .priority-select option[value="low"]:hover {
+    background-color: #22c55e !important;
+  }
+  
+  .priority-select option[value="medium"]:hover {
+    background-color: #eab308 !important;
+  }
+  
+  .priority-select option[value="high"]:hover {
+    background-color: #ef4444 !important;
+  }
+}
+
